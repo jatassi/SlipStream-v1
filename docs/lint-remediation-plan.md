@@ -130,7 +130,7 @@ After **every completed wave**:
 >    ```
 >
 > Do NOT restructure or refactor beyond eliminating the nested ternary.
-> After each file: `cd /Users/jatassi/Git/SlipStream/web && bunx eslint src/{FILE_PATH} 2>&1 | grep no-nested-ternary`
+> After each file: `cd /Users/jatassi/Git/SlipStream-v1/web && bunx eslint src/{FILE_PATH} 2>&1 | grep no-nested-ternary`
 
 **Wave 7 — Misc mechanical fix subagent:**
 > Fix the following lint violations. Each is a targeted expression-level change:
@@ -149,7 +149,7 @@ After **every completed wave**:
 > - `no-unused-expressions`: Convert to a statement or remove.
 > - `no-unnecessary-type-parameters`: Remove the unnecessary generic parameter.
 >
-> After each file: `cd /Users/jatassi/Git/SlipStream/web && bunx eslint src/{FILE_PATH} 2>&1 | head -20`
+> After each file: `cd /Users/jatassi/Git/SlipStream-v1/web && bunx eslint src/{FILE_PATH} 2>&1 | head -20`
 
 ### Common Pitfalls
 
@@ -632,8 +632,8 @@ These 8 files must be split. Many already appear in Tier A/B for function-level 
 > - Do NOT change observable behavior.
 > - Do NOT use `asChild` — use Base UI `render` prop.
 > - Do NOT add `eslint-disable` comments.
-> - Verify: `cd /Users/jatassi/Git/SlipStream/web && bunx eslint src/{FILE_PATH} 2>&1 | head -20`
-> - Verify: `cd /Users/jatassi/Git/SlipStream/web && bunx tsc --noEmit 2>&1 | head -20`
+> - Verify: `cd /Users/jatassi/Git/SlipStream-v1/web && bunx eslint src/{FILE_PATH} 2>&1 | head -20`
+> - Verify: `cd /Users/jatassi/Git/SlipStream-v1/web && bunx tsc --noEmit 2>&1 | head -20`
 
 **Tier C — Trim-to-fit subagent:**
 > Trim the following components to fit under the 50-line function limit: {FILE_LIST}.
@@ -646,7 +646,7 @@ These 8 files must be split. Many already appear in Tier A/B for function-level 
 >
 > Do NOT create new files for Tier C fixes unless the extracted piece is reusable. A locally-defined component in the same file is preferred.
 >
-> After each file: `cd /Users/jatassi/Git/SlipStream/web && bunx eslint src/{FILE_PATH} 2>&1 | grep -E "max-lines|complexity|max-params|max-nested|max-depth"`
+> After each file: `cd /Users/jatassi/Git/SlipStream-v1/web && bunx eslint src/{FILE_PATH} 2>&1 | grep -E "max-lines|complexity|max-params|max-nested|max-depth"`
 > The grep should return no results.
 
 ### Tier A — Heavy (5+ structural violations)

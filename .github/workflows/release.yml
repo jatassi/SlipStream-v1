@@ -321,7 +321,7 @@ jobs:
           maintainer: SlipStream <noreply@slipstream.local>
           description: Unified media management system
           vendor: SlipStream
-          homepage: https://github.com/jatassi/SlipStream
+          homepage: https://github.com/jatassi/SlipStream-v1
           license: MIT
           contents:
             - src: dist/slipstream_linux_amd64/slipstream-stub
@@ -347,7 +347,7 @@ jobs:
           maintainer: SlipStream <noreply@slipstream.local>
           description: Unified media management system
           vendor: SlipStream
-          homepage: https://github.com/jatassi/SlipStream
+          homepage: https://github.com/jatassi/SlipStream-v1
           license: MIT
           contents:
             - src: dist/slipstream_linux_arm64/slipstream-stub

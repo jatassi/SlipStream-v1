@@ -26,7 +26,7 @@ import (
 )
 
 const (
-	githubAPIURL       = "https://api.github.com/repos/jatassi/SlipStream/releases/latest"
+	githubAPIURL       = "https://api.github.com/repos/jatassi/SlipStream-v1/releases/latest"
 	settingAutoInstall = "update_auto_install"
 	osLinux            = "linux"
 )
