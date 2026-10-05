@@ -336,7 +336,7 @@ The `types.DownloadItem.Progress` field must be 0-100. Getting this wrong breaks
 When implementing a client, read the Sonarr source for that client's API details. The paths are:
 
 ```
-~/Git/Sonarr/src/NzbDrone.Core/Download/Clients/{ClientDir}/
+~/Developer/Sonarr/src/NzbDrone.Core/Download/Clients/{ClientDir}/
 ```
 
 | Client | Sonarr Directory | Key Files to Read |

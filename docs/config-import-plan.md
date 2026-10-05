@@ -33,7 +33,7 @@ Before writing any code, run this to confirm all assumptions about the codebase 
 
 ```bash
 # Verify module path
-head -1 /Users/jatassi/Git/SlipStream-v1/go.mod
+head -1 /Users/jatassi/Developer/SlipStream-v1/go.mod
 # Expected: module github.com/slipstream/slipstream
 
 # Verify Reader interface has exactly 7 methods (before we add 5 more)

@@ -9,7 +9,7 @@ Achieve parity with Sonarr's torrent client support in SlipStream.
 | Agent Guide | `docs/torrent-client-agent-guide.md` | Context management, subagent prompts, pitfalls, phase instructions |
 | Verification Script | `scripts/verify-client-registration.sh` | Checks all registration points per client |
 | Test Template | `internal/downloader/client_test_template.go.example` | httptest-based test scaffold for new clients |
-| Sonarr Source | `~/Git/Sonarr/src/NzbDrone.Core/Download/Clients/` | Reference implementations for all clients |
+| Sonarr Source | `~/Developer/Sonarr/src/NzbDrone.Core/Download/Clients/` | Reference implementations for all clients |
 
 ## Reference App
 

@@ -401,5 +401,5 @@ Auto-search (scheduled missing/upgrade searches) works unchanged in Prowlarr mod
 
 ## 20. Relevant Repositories
 
-20.1: Prowlarr repo cloned locally for reference: `~/Git/Prowlarr`
-20.2: Radarr repo cloned locally for reference: `~/Git/Radarr`
+20.1: Prowlarr repo cloned locally for reference: `~/Developer/Prowlarr`
+20.2: Radarr repo cloned locally for reference: `~/Developer/Radarr`
